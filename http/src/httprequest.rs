@@ -10,7 +10,7 @@ impl From<&str> for Method {
         match s {
             "GET" => Method::Get,
             "POST" => Method::Post,
-            _ => Method::Uninitialized
+            _ => Method::Uninitialized,
         }
     }
 }
